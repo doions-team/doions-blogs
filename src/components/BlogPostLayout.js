@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useCurrentRoute, useView } from "react-navi";
 import { MDXProvider } from "@mdx-js/react";
-import siteMetadata from "../siteMetadata";
+// import siteMetadata from "../siteMetadata";
 import { formatDate } from "../utils/formats";
 
 // import ArticleMeta from "./ArticleMeta";
@@ -21,8 +21,8 @@ function BlogPostLayout({ blogRoot }) {
       {head}
       <article className={styles.container}>
         <header className={styles.header}>
-          <pre>{JSON.stringify(data, null, 2)}</pre>
-          <pre>{JSON.stringify(blogRoot)}</pre>
+          {/* <pre>{JSON.stringify(data, null, 2)}</pre>
+          <pre>{JSON.stringify(blogRoot)}</pre> */}
           {/* <ArticleMeta
             blogRoot={blogRoot}
             meta={data}
@@ -39,7 +39,7 @@ function BlogPostLayout({ blogRoot }) {
             <div style={{ fontSize: "2rem" }}>Author</div>
             <div style={{ margin: "0rem 1rem" }}></div>
             <time
-              style={{ fontSize: "1rem" }}
+              style={{ fontSize: "0.75rem" }}
               dateTime={data.date.toUTCString()}
             >
               {formatDate(data.date)}
