@@ -1,0 +1,13 @@
+.ArticleSummary article {
+  text-align: start;
+}
+
+.ArticleSummary h2 {
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.ArticleSummary a {
+  text-decoration: none;
+}
