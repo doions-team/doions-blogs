@@ -54,7 +54,7 @@ function BlogPostLayout({ blogRoot }) {
           components={{
             a: Link,
             wrapper: ({ children }) => (
-              <div className={styles.content}>{children}</div>
+              <div className={styles.content + " container "}>{children}</div>
             ),
           }}
         >
