@@ -8,20 +8,20 @@ import styles from "./BlogIndexPage.module.css";
 
 function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
   return (
-    <div>
+    <div className="container">
       <header>
         <div className={styles.title}>
           <Link href={blogRoot}>{siteMetadata.title}</Link>
         </div>
         {/* <Bio /> */}
       </header>
-      <ul className={styles.articlesList}>
+      <div className={styles.articlesList}>
         {postRoutes.map((route) => (
-          <li key={route.url.href}>
+          <div key={route.url.href}>
             <ArticleSummary blogRoot={blogRoot} route={route} />
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
       {pageCount > 1 && (
         <Pagination
           blogRoot={blogRoot}
