@@ -17,7 +17,7 @@ function BlogPostLayout({ blogRoot }) {
   // to use <MDXProvider> to ensure that links are rendered
   // with <Link>, and thus use pushState.
   return connect(
-    <>
+    <div>
       {head}
       <article className={styles.container}>
         <header className={styles.header}>
@@ -82,7 +82,7 @@ function BlogPostLayout({ blogRoot }) {
           </section>
         </footer>
       </article>
-    </>
+    </div>
   );
 }
 

@@ -8,6 +8,8 @@ import {
 import NotFoundPage from "./NotFoundPage";
 import LoadingIndicator from "./LoadingIndicator";
 import styles from "./BlogLayout.module.css";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function BlogLayout({ blogRoot, isViewingIndex }) {
   let loadingRoute = useLoadingRoute();
@@ -27,10 +29,12 @@ function BlogLayout({ blogRoot, isViewingIndex }) {
         // )
       }
 
-      <main>
+      <main style={{ height: "100vh" }}>
+        <Navbar />
         <NotFoundBoundary render={() => <NotFoundPage />}>
           <View />
         </NotFoundBoundary>
+        <Footer />
       </main>
     </div>
   );
