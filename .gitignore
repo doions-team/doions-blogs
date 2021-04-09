@@ -1,5 +1,4 @@
 .esm-cache
 .vscode
 node_modules
-build
 *.log
