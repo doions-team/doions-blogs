@@ -17,7 +17,7 @@ function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
       </header>
       <div /* className={styles.articlesList} */ className="row">
         {postRoutes.map((route) => (
-          <div className="col-12 col-sm-6" key={route.url.href}>
+          <div className="col-12 col-sm-6 px-5" key={route.url.href}>
             <ArticleSummary blogRoot={blogRoot} route={route} />
           </div>
         ))}
