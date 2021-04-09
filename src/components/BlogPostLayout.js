@@ -36,7 +36,7 @@ function BlogPostLayout({ blogRoot }) {
               alignItems: "baseline",
             }}
           >
-            <div style={{ fontSize: "2rem" }}>Author</div>
+            <div style={{ fontSize: "2rem" }}>{data.author}</div>
             <div style={{ margin: "0rem 1rem" }}></div>
             <time
               style={{ fontSize: "0.75rem" }}

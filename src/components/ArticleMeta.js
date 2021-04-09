@@ -28,7 +28,8 @@ function ArticleMeta({ blogRoot, meta, readingTime, avatar }) {
           alt="avatar"
         />
         <div style={{ paddingLeft: "1rem" }}>
-          <div style={{ fontSize: "2rem" }}>Name</div>
+          <div style={{ fontSize: "2rem" }}>{meta.author}</div>
+          {/* <pre>{JSON.stringify(meta.author, null, 2)}</pre> */}
           <time style={{ fontSize: "1rem" }} dateTime={meta.date.toUTCString()}>
             {formatDate(meta.date)}
           </time>
