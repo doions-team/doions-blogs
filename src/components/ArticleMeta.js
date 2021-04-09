@@ -20,7 +20,7 @@ function ArticleMeta({ blogRoot, meta, readingTime, avatar }) {
 
   return (
     <small className={styles.ArticleMeta}>
-      <div style={{ display: "flex", alignItems: "center" }}>
+      <div className="my-2" style={{ display: "flex", alignItems: "center" }}>
         <img
           style={{
             width: "5rem",

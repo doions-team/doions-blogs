@@ -1,11 +1,13 @@
 import cover from "./cover.jpg";
+import avatar from "./avatar.jpg";
 
 export default {
   title: `UI-UX : Beginner’s Guide; Part 1`,
-  author: "Author 2",
-  avatar: "...",
+  author: "Sukruti Atre",
+  avatar,
   tags: ["UI-UX", "Series"],
-  spoiler: "where is spoiler...",
+  spoiler:
+    "What is UI UX? Why are we hearing it so much around the streets of tech advanced areas? Is it some new slang? Are the people using it trying to look cool or does it actually mean something ? When you read UIUX, what comes to your mind?...",
   cover,
   getContent: () => import("./document.mdx"),
 };
