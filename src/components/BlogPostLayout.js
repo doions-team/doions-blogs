@@ -82,7 +82,7 @@ function BlogPostLayout({ blogRoot }) {
         >
           <MDXComponent />
         </MDXProvider>
-        <footer className={styles.footer}>
+        <footer className={styles.footer + " mx-4 "}>
           {/* <div className={styles.title}>
             <Link href={blogRoot}>{siteMetadata.title}</Link>
           </div> */}

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.44e337a1.chunk.css",
-    "main.js": "/static/js/main.1dae0628.chunk.js",
-    "main.js.map": "/static/js/main.1dae0628.chunk.js.map",
+    "main.css": "/static/css/main.6f5e36cb.chunk.css",
+    "main.js": "/static/js/main.01ee8caa.chunk.js",
+    "main.js.map": "/static/js/main.01ee8caa.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.35a7dd5f.js",
     "runtime~main.js.map": "/static/js/runtime~main.35a7dd5f.js.map",
     "static/js/2.8d88b1e4.chunk.js": "/static/js/2.8d88b1e4.chunk.js",
@@ -26,13 +26,13 @@
     "static/js/9.54284620.chunk.js": "/static/js/9.54284620.chunk.js",
     "static/js/9.54284620.chunk.js.map": "/static/js/9.54284620.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.326037bbf4d5202c6dbd7fc9fadf09a1.js": "/precache-manifest.326037bbf4d5202c6dbd7fc9fadf09a1.js",
+    "precache-manifest.eb4b9b5bd1132896922bf07e8348637e.js": "/precache-manifest.eb4b9b5bd1132896922bf07e8348637e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.04e8ef13.chunk.css.map": "/static/css/3.04e8ef13.chunk.css.map",
     "static/css/4.95e94480.chunk.css.map": "/static/css/4.95e94480.chunk.css.map",
     "static/css/5.04e8ef13.chunk.css.map": "/static/css/5.04e8ef13.chunk.css.map",
     "static/css/8.024ac93c.chunk.css.map": "/static/css/8.024ac93c.chunk.css.map",
-    "static/css/main.44e337a1.chunk.css.map": "/static/css/main.44e337a1.chunk.css.map",
+    "static/css/main.6f5e36cb.chunk.css.map": "/static/css/main.6f5e36cb.chunk.css.map",
     "static/media/avatar.jpg": "/static/media/avatar.e86cb887.jpg",
     "static/media/cover.svg": "/static/media/cover.0944e10b.svg",
     "static/media/cover.jpg": "/static/media/cover.590925aa.jpg",
@@ -44,6 +44,8 @@
     "static/media/image-4.jpg": "/static/media/image-4.417eb04f.jpg",
     "static/media/image-5.jpg": "/static/media/image-5.5a8c2d49.jpg",
     "static/media/image-6.jpg": "/static/media/image-6.899769b2.jpg",
-    "static/media/instagram-brands.e75317fa.svg": "/static/media/instagram-brands.e75317fa.svg"
+    "static/media/instagram-brands.e75317fa.svg": "/static/media/instagram-brands.e75317fa.svg",
+    "static/media/linkedin-brands.d9049f46.svg": "/static/media/linkedin-brands.d9049f46.svg",
+    "static/media/twitter-square-brands.a1223de5.svg": "/static/media/twitter-square-brands.a1223de5.svg"
   }
 }
