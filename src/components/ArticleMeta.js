@@ -21,7 +21,14 @@ function ArticleMeta({ blogRoot, meta, readingTime, avatar }) {
   return (
     <small className={styles.ArticleMeta}>
       <div style={{ display: "flex", alignItems: "center" }}>
-        <img width="70px" height="70px" src={meta.avatar} alt="avatar" />
+        <img
+          style={{
+            width: "5rem",
+          }}
+          className="img-thumbnail rounded-circle"
+          src={meta.avatar}
+          alt="avatar"
+        />
         <div style={{ paddingLeft: "1rem" }}>
           <div style={{ fontSize: "2rem" }}>{meta.author}</div>
           {/* <pre>{JSON.stringify(meta.author, null, 2)}</pre> */}

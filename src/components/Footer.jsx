@@ -5,6 +5,7 @@ import { ReactComponent as InstagramIcon } from "../icons/instagram-brands.svg";
 export default function Footer() {
   return (
     <div
+      className="position-static"
       style={{
         width: "100%",
         bottom: 0,

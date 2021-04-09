@@ -1,9 +1,10 @@
 import cover from "./cover.svg";
+import avatar from "./avatar.jpg";
 
 export default {
   title: `Social Media for Businesses: A Beginner’s Guide`,
-  author: "Author 1",
-  avatar: "...",
+  author: "Ruchita Joglekar",
+  avatar,
   tags: ["Social Media", "Business"],
   spoiler: "where is spoiler...",
   cover,

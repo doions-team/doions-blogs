@@ -12,6 +12,7 @@ function ArticleSummary({ blogRoot, route }) {
         }}
       >
         <img
+          className="img-fluid"
           src={route.data.cover}
           alt="cover"
           style={{

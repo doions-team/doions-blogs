@@ -29,7 +29,7 @@ function BlogLayout({ blogRoot, isViewingIndex }) {
         // )
       }
 
-      <main style={{ height: "100vh" }}>
+      <main style={{ height: "100vh" }} className="position-relative">
         <Navbar />
         <NotFoundBoundary render={() => <NotFoundPage />}>
           <View />

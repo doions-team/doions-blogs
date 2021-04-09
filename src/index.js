@@ -5,7 +5,6 @@ import ReactDOM from "react-dom";
 import { Router } from "react-navi";
 import HelmetProvider from "react-navi-helmet-async";
 import "./index.module.css";
-import "./index.css";
 import routes from "./routes";
 import * as serviceWorker from "./serviceWorker";
 
