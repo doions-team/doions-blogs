@@ -1,12 +1,12 @@
-.logo {
-  position: relative;
-  height: 256px;
-  left: 0;
-  margin: 0 auto;
-  width: 512px;
-  overflow: hidden;
+.img-wrapper {
+  text-align: center;
 }
-.logo-navi,
+
+.img {
+  width: 80%;
+  height: auto;
+}
+/* .logo-navi,
 .logo-react {
   height: 256px;
   position: absolute;
@@ -18,7 +18,7 @@
 .logo-react {
   animation: Index-logo-react-spin infinite 20s linear;
   left: -22px;
-}
+} 
 
 @keyframes Index-logo-navi-spin {
   from {
@@ -36,4 +36,4 @@
   to {
     transform: rotate(-30deg);
   }
-}
+} */

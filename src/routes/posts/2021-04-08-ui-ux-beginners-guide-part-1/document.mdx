@@ -1,3 +1,5 @@
+import image1 from "./image-1.jpg";
+import image2 from "./image-2.jpg";
 import styles from "../document.module.css";
 
 <div className={styles["Welcome"]}>
@@ -29,7 +31,9 @@ It’s important to understand that UX and UI do go hand-in-hand; you can’t ha
 one without the other. However, you don’t need to possess UI design skills to be a
 UX designer, and vice versa.
 
-IMAGE
+<div className={styles["img-wrapper"]}>
+  <img src={image1} className={styles["img"]} />
+</div>
 
 If you think about a house, it begins with the decision to start builing a place for
 yourself, to live breathe and spend your life in. Similarly, the design of any
@@ -89,6 +93,8 @@ things right.
 
 Also, watch this space to learn what’s next !
 
-IMAGE
+<div className={styles["img-wrapper"]}>
+  <img src={image2} className={styles["img"]} />
+</div>
 
 </div>
