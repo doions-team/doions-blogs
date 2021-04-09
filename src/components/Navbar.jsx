@@ -14,6 +14,7 @@ export default function Navbar() {
           height: "6rem",
           display: "flex",
           alignItems: "center",
+          justifyContent: "center",
         }}
       >
         <a
