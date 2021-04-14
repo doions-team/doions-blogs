@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactComponent as FacebookIcon } from "../icons/facebook-square-brands.svg";
-import { ReactComponent as InstagramIcon } from "../icons/instagram-brands.svg";
+import { ReactComponent as InstagramIcon } from "../icons/instagram-square-brands.svg";
 import { ReactComponent as LinkedinIcon } from "../icons/linkedin-brands.svg";
 import { ReactComponent as TwitterIcon } from "../icons/twitter-square-brands.svg";
 
