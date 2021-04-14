@@ -11,7 +11,7 @@ function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
     <div className="container">
       <header>
         <div className={styles.title}>
-          <Link href={blogRoot}>{siteMetadata.title}</Link>
+          <Link href={blogRoot}>{siteMetadata.siteHeading}</Link>
         </div>
         {/* <Bio /> */}
       </header>

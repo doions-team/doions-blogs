@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "763a3b20d273874dddd1cb31240059f5",
+    "revision": "f9e59539bbaf93554df22c34c8ab10b8",
     "url": "/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/8.024ac93c.chunk.css"
   },
   {
-    "revision": "1345d712e5a79ac3bd81",
+    "revision": "7269e740954b5991dfcf",
     "url": "/static/css/main.6f5e36cb.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/9.54284620.chunk.js"
   },
   {
-    "revision": "1345d712e5a79ac3bd81",
-    "url": "/static/js/main.01ee8caa.chunk.js"
+    "revision": "7269e740954b5991dfcf",
+    "url": "/static/js/main.931a6e94.chunk.js"
   },
   {
     "revision": "ee43aa9990e7fbb2fcd4",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/image-6.899769b2.jpg"
   },
   {
-    "revision": "e75317fafc5e835195adf92be513d35b",
-    "url": "/static/media/instagram-brands.e75317fa.svg"
+    "revision": "6c6931f426bcc5ba571c8ed56b757ece",
+    "url": "/static/media/instagram-square-brands.6c6931f4.svg"
   },
   {
     "revision": "d9049f461eb3dd661b7f77c6e56e7593",
